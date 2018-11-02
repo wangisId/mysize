@@ -1,0 +1,141 @@
+img{
+
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 3px;
+}
+
+a:hover{
+	text-decoration: none;
+   }
+
+.navbar-default{
+
+
+}
+.navbar-nav{
+ padding-left: 20px;
+}
+.navbar-nav a
+{
+   font-weight: 500;
+}
+.navbar-brand{
+
+	background-image: url("../img/logo.png");
+	width: 50px;
+	background-size:75%;
+	background-repeat: no-repeat;
+	background-position: center center; 	
+
+}
+
+.row{
+	padding: 0;
+}
+
+ .navbar-header{
+ 	padding-left: 8px;
+ }
+
+.nav-pills>li.active>a{
+ 	background-color:#ea0c3c;
+
+ }
+ .nav-pills>li.active>a:hover{
+ 	background-color:#ea0c3c;
+
+ }
+ .nav-pills a{
+
+ 	color: #555;
+ }
+
+ .nav-pills li a{
+
+ 	border-radius:2px;
+ }
+
+ .news-list-item .title{
+    display: block;
+    color:#444;
+ 	font-size: 18px;
+ 	font-weight: bold;
+ 	color:#444;
+    line-height: 1.5;
+    margin-bottom: 16px;
+ }
+  .news-list-item .title:hover{
+
+  	color:#ea0c3c;
+  }
+
+
+  .news-list-item .info{
+
+  	color: #888;
+  }
+
+  .avatar{
+  	display: inline-block;
+  }
+   .avatar img{
+
+  	display: inline-block;
+  	width: 15px;
+  	height: 15px;
+  	margin-right: 5px;
+  }
+
+  .news-list-item{
+
+  	padding-top: 22px;
+   padding-bottom: 22px;
+   border-bottom: 1px solid #ccc;
+
+  }
+  .news-list-item:first-child{
+
+  	padding-top:0;
+  }
+
+  .side-bar-card{
+
+  	background: rgba(0,0,0,.05);
+    border-radius:3px;
+    padding: 10px 0;
+    margin-top:15px;
+  }
+  .side-bar-card.flag{
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  }
+
+  .text-lg{
+   font-size: 150%;
+  }
+  .side-bar-card .card-title,
+  .side-bar-card .card-body .list .item{
+  	padding: 10px 15px;
+  	border-radius: 3px;
+  }
+  .side-bar-card .card-body .list .item:hover{
+  	background:rgba(0,0,0,.05);
+  }
+ .side-bar-card .card-title{
+ 	font-size: 18px;
+ 	font-weight: bold;
+ 	padding-top: 0;
+ 	padding-bottom: 0;
+ }
+   .side-bar-card .card-body .list .item .title{
+
+   	padding-bottom: 5px;
+   }
+
+   .side-bar-card .card-body .list .item .desc{
+
+   	color: #999;
+   }
